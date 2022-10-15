@@ -5,7 +5,7 @@ error_reporting (E_ALL);
 include('config.php');
 
 // Соединяемся с БД
-$dbObject = new PDO('mysql:host=' . DB_HOST . ';dbname=' . DB_NAME, DB_USER, DB_PASS);
+$dbObject = new PDO('mysql:host=' . DB_HOST . ';port=3307;dbname=' . DB_NAME, DB_USER, DB_PASS);
 
 // подключаем ядро сайта
 include(SITE_PATH . DS . 'core' . DS . 'core.php');
