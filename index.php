@@ -2,7 +2,7 @@
 // включим отображение всех ошибок
 error_reporting (E_ALL); 
 
-phpinfo();
+print_r(111);
 // подключаем конфиг
 // include('config.php');
 
